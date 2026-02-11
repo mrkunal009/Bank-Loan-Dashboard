@@ -43,6 +43,68 @@ This report includes commonly used lending KPIs such as:
 - MoM metrics (applications, funded, received, avg int rate, avg DTI)
 - GOOD LOAN % / BAD LOAN %
 - GOOD LOAN / BAD LOAN (applications, funded amount, received amount)
+  
+
+ 1. Summary Page
+High-level KPI snapshot including:
+- Total Loan Applications
+- Total Funded Amount
+- Total Amount Received
+- Avg Interest Rate
+- Avg DTI
+- Good vs Bad Loan %
+
+🔹 2. Overview Page
+Trend & segmentation analysis:
+- Monthly trend charts
+- Loan distribution by state
+- Term / Grade / Purpose breakdown
+- Portfolio risk visualization
+
+
+ 🔹 3. Details Page
+Granular drill-down table view:
+- Individual loan records
+- Filterable KPIs
+- Advanced slicers
+
+ 📈 Key Metrics Implemented
+
+- TOTAL LOAN APPLICATION
+- TOTAL FUNDED AMOUNT
+- TOTAL AMOUNT RECEIVED
+- AVG INTEREST RATE
+- AVG DTI
+- MTD Metrics
+- MoM Metrics
+- GOOD LOAN %
+- BAD LOAN %
+- Risk-based segmentation KPIs
+
+ 🛠 Tools Used
+
+- Power BI Desktop
+- DAX (Time Intelligence + KPIs)
+- Power Query (Data Cleaning & Transformation)
+
+---
+
+## 📂 Project File
+
+- `completer.pbix`
+
+---
+
+## 📌 How to Run
+
+1. Install Power BI Desktop
+2. Open `completer.pbix`
+3. Refresh dataset if needed
+4. Interact with slicers & filters
+
+---
+
+
 
 🧩 Dimensions / Fields Used
 The analysis uses borrower + loan attributes such as:
